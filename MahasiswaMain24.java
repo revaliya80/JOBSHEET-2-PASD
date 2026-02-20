@@ -1,6 +1,6 @@
 public class MahasiswaMain24 {
     public static void main(String[] args) {
-
+        mahasiswa24 mhs1 = new mahasiswa24();
         mhs1.nama = "Muhammad Ali Farhan";
         mhs1.nim = "2241720171";
         mhs1.kelas = "SI 2J";
@@ -14,5 +14,9 @@ public class MahasiswaMain24 {
         mahasiswa24 mhs2 = new mahasiswa24("Annisa Nabila", "2141720160", "TI 2L", 3.25);
         mhs2.updateIpk(3.30);
         mhs2.tampilkanInformasi();
+
+        mahasiswa24 mhsRefaliya = new mahasiswa24("Refaliya Vinandha", "254107060113", "SIB 1B", 3.50);
+        mhsRefaliya.tampilkanInformasi();
+
     }
 }
